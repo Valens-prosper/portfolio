@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=" UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.Valens || Bello Amore Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Valens</div>
+        <div class="nav">
+        <nav class="nav-br">
+            <a class='active' href="#home">Home</a>
+            <a href="#about">About</a>    
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        </div>
+        <div class="hamburger" onclick="toggleMenu();">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="theme"><span class="circle"></span></div>
+    </header>
+   <section class="home" id="home">
+    <h2>Hello, It'S Me!</h2>
+    <h1>Valens Iradukunda</h1>
+    <h5><i>From Rwanda</i></h5>
+     <h2>I'm an <span>UI/UX Designer</span> and <span>Frontend Developer</span></h2>
+     <p>I'm a self-thought programmer passionate about designing modern and user-friendly websites.
+         My mission is to create impactful digital experiences that solve real-world problems.
+         I would like to work with you to put our dreams in reality.
+     </p>
+     <h5><i>Great achievements always start with bold ideas!</i></h5>
+     <button id="btn1">View My Work</button><button id="btn2">Contact Me</button>
+     <div class="social-media">
+
+     </div>
+    <div class="photo">
+        <img src="hero-image.png" alt="My real picture">
+        <span class="ring"></span>
+     </div>  
+     
+   </section>
+   <section class="about" id="about">
+       <h1>About <span>Me!</span></h1>
+       <div class="content-wrapper">
+        <div class="about-me">
+            <h1>Who <span>I am</span></h1>
+            <p>I am a self-taught and ambition-driven programmer with strong 
+                interest in Web Development. My journey began as I started with HTML and 
+                CSS, building from Scratch to create meaningful and visually appealing designs.
+                <br><br>
+                Currently, I can say that i'm an intermediate Javascript developer as it is 
+                language I currently concerned to. With knowledge I have in HTML, CSS and 
+                Javascript, I can and I have built some projects with excellent functionality.
+            </p>
+        </div>
+        <div class="my-gaol">
+            <h1>My <span>Goal</span></h1>
+            <p>
+                My gaol is to provide solutions to everyday challenges, particulary for 
+                both small and large businesses. My big focus is to keep earning more 
+                knowledge and Skills, especially by contributing toopen-source projects
+                and joining other programmers and Web Developers
+                so that I can learn from them.
+            </p>
+        </div>
+     </div>
+   </section> 
+   <section class="skill" id="skills">
+    <h1>My <span>Skills</span></h1>
+    <div class="skills">
+    <div class="skills-container">
+        <h1>Languages</h1>
+        <h3>HTML</h3>
+        <div class="progress" title="95%"><span></span></div>
+        <h3>CSS</h3>
+        <div class="progress" title="85%"><span></span></div>
+        <h3>Javascript</h3>
+        <div class="progress" title="55%"><span></span></div>
+    </div>
+    <div class="other-skills">
+        <div class="frameworks">
+            <h2>Frameworks and Tools</h2>
+            <span>Bootrap</span>
+            <span>WordPress</span>
+            <span>Google sites</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Boxicons</span>
+            <span>Vs code</span>
+        </div>
+        <div class="soft-skills">
+            <h2>Soft <label>skills</label ></h2>
+            <span>English</span>
+            <span>Fast-learning</span>
+            <span>Leadership skills</span>
+            <span>Communication skills</span>
+            <span>Time management</span>
+            <span>Collaboration</span>
+        </div>
+    </div>
+    </div>
+   </section>
+   <h1 class="hx">My recent <span>Projects</span></h1>
+   <section class="portfolio" id="portfolio">
+     
+    <div class="slider">
+        <div class="container current">
+            <div class="demos">
+                <div class="image"><img src="photos/photo1.jpg" alt=""></div>
+                <div class="phone"><img src="photos/pn1.png" alt=""></div>
+            </div>
+            <div class="description"></div>
+        </div>
+        <div class="container">
+            <div class="demos">
+                <div class="image"><img src="photos/photo2.jpg" alt=""></div>
+                <div class="phone"><img src="photos/pn2.png" alt=""></div>
+            </div>
+            <div class="description"></div>
+        </div>
+        <div class="container">
+            <div class="demos">
+                <div class="image"><img src="photos/photo3.png" alt=""></div>
+                <div class="phone"><img src="photos/pn4.png" alt=""></div>
+            </div>
+            <div class="description"></div>
+        </div>
+        <div class="container">
+            <div class="demos">
+                <div class="image"><img src="photos/photo4.png" alt=""></div>
+                <div class="phone"><img src="photos/pn3.png" alt=""></div>
+            </div>
+            <div class="description"></div>
+        </div>
+    </div>
+   </section>
+   <section class="contacts" id="contacts">
+    <div class="form-wrapper">
+        <form action="">
+            <h1>Let's Get Connected</h1>
+            <ul>
+            <li><input type="text" name="name" id="name" placeholder="Your names please" required></li>
+            <li><input type="email" name="email" id="email" placeholder="E-mail address" required></li>
+            </ul>
+            <textarea  name="message" id="message" placeholder="Your precious message please..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+   </section>
+   <script src="script.js"></script>
+</body>
+</html>
